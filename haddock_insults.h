@@ -3,7 +3,7 @@
 // Insults used by Captain Haddock in the Tintin comics.
 // originally gathered many years ago in a ruby script here: https://github.com/granolocks/haddock-insult-generator 
 
-const char *insults[] = {
+const char *haddock_insults[] = {
 	"Aardvark!",
 	"Abecedarians!",
 	"Aborigine!",
@@ -106,12 +106,8 @@ const char *insults[] = {
 	"Hydrocarbon!",
 	"Iconoclasts!",
 	"Idiots!",
-	"... you,
-	Imitation Incas,
-	you!",
-	"You,
-	interplantary goat,
-	you!",
+	"... you, Imitation Incas, you!",
+	"You, interplantary goat, you!",
 	"Jellied eel!",
 	"Jellyfish!",
 	"Jobbernowl!",
@@ -219,6 +215,6 @@ const char *insults[] = {
 	"Zapotecs!"
 };
 
-const size_t insult_count = sizeof(insults) / sizeof(insults[0]);
+const size_t haddock_insult_count = sizeof(haddock_insults) / sizeof(haddock_insults[0]);
 
 #endif // HADDOCK_INSULTS_H
