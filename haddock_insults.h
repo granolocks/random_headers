@@ -1,7 +1,7 @@
 #ifndef HADDOCK_INSULTS_H
 #define HADDOCK_INSULTS_H
 // Insults used by Captain Haddock in the Tintin comics.
-// originall gathered many years ago in a ruby script here: https://github.com/granolocks/haddock-insult-generator 
+// originally gathered many years ago in a ruby script here: https://github.com/granolocks/haddock-insult-generator 
 
 const char *insults[] = {
 	"Aardvark!",
